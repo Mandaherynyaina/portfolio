@@ -9,6 +9,27 @@ nav{
     left: 0;
     right: 0;
     margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.logo{
+    
+}
+
+.logo img{
+    width: 55px;
+    border: 5px solid #575097;
+    border-radius: 35%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+    transition: all 1s ease;
+}
+
+.logo:hover img{
+    transform:scale(1.25);
+}
+
+.menu{
 
 }
 
@@ -44,11 +65,16 @@ h1{
     
 }
 
-img{
+.photo img{
     width: 225px;
     border: 5px solid #575097;
     border-radius: 35%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+    transition: all 1s ease;
+}
+
+.photo:hover img{
+    transform:scale(1.25);
 }
 
 ul{
@@ -57,13 +83,21 @@ ul{
     display: inline-block;
 }
 
+ul a{
+    transition: all 1s ease;
+}
+
 a{
     text-decoration: none;
-    color: #A8AF68;
+    color: #A8AF68; 
 }
 
 a:active{
     text-decoration: none;
     text-align: center;
     color: blueviolet;
+}
+
+ul:hover a{
+    transform:scale(1.25);
 }
