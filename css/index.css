@@ -13,6 +13,10 @@ nav{
     
 }
 
+.container-logo{
+    float: left;
+    margin-left: 20px;
+}
 
 .container-logo img{
     width: 55px;
@@ -73,14 +77,24 @@ h1{
 ul{
     font-style: italic;
     list-style-type: none;
-    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+li{
+    display: inline;
+    padding: 10px;
 }
 
-ul a{
+li a{
     transition: all 0.5s ease;
 }
 
 a{
+    font-size: large;
     text-decoration: none;
     color: #A8AF68; 
 }
@@ -91,12 +105,8 @@ a:active{
     color: blueviolet;
 }
 
-ul:hover a{
-    zoom: calc(1.25);
-}
-
-.*{
-    box-sizing: border-box;
+li:hover a{
+    color: #0F056B;
 }
 
 .column{
