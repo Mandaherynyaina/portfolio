@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
 body{
     background-color: #0F056B;
 }
@@ -112,11 +115,11 @@ li:hover a{
 .column{
     float: left;
     width: 30%;
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 .row{
-    margin: 0 -5px;
+    margin: 0 -10px;
 }
 
 .row::after{
@@ -125,14 +128,81 @@ li:hover a{
     clear: both;
 }
 
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #444;
-    color: white;
+.card-pizza{
+    width: 100%;
+    height: 400px;
+    background-image: url('99e77bca32032e2cc13236aa36c74edd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #0F056B;
+    border: 5px solid #A8AF68;
+    border-radius: 45px;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-pizza:hover {
+    transform: scale(1.25);
+}
+
+.card-iss{
+    width: 100%;
+    height: 400px;
+    background-image: url('Screenshot\ 2024-07-11\ at\ 22.51.58.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #0F056B;
+    border: 5px solid #A8AF68;
+    border-radius: 45px;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-iss:hover {
+    transform: scale(1.25);
+}
+
+.card-zotra{
+    width: 100%;
+    height: 400px;
+    background-image: url('travel_plane_corona.jpeg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #0F056B;
+    border: 5px solid #A8AF68;
+    border-radius: 45px;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-zotra:hover {
+    transform: scale(1.25);
+}
+
+.text-container{
+    padding: 20px;
+    color: black;
 }
 
 h3{
-    color: #A8AF68;
+    color: yellow;
+    font-family: "Inconsolata", monospace;
+    border: 2px #0F056B solid;
+    border-radius: 15%;
+    background-color: blue;
+}
+
+.column p{
+    font-style: italic;
+    font-size: 20px;
+    color: white;
 }
