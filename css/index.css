@@ -206,3 +206,21 @@ h3{
     font-size: 20px;
     color: white;
 }
+
+.rows-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.rows{
+    color: aliceblue;
+    background-color: #575097;
+    border: 2px #A8AF68 solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
