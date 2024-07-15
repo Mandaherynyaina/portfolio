@@ -77,7 +77,7 @@ h1{
     transform:scale(1.25);
 }
 
-ul{
+.container-menu ul{
     font-style: italic;
     list-style-type: none;
     margin: 0;
@@ -87,16 +87,16 @@ ul{
     width: 100%;
     margin-top: 20px;
 }
-li{
+.container-menu li{
     display: inline;
     padding: 10px;
 }
 
-li a{
+.container-menu li a{
     transition: all 0.5s ease;
 }
 
-a{
+.container-menu a{
     font-size: large;
     text-decoration: none;
     color: #A8AF68; 
@@ -228,4 +228,48 @@ h3{
 .rows:hover{
     background-color: red;
     color: black;
+}
+
+.container-contact{
+    position: relative;
+    width: 700px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.block-container{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F056B;
+    font-weight: bold;
+}
+
+.block1{
+    background-color: #575097;
+    top:0;
+    left:0;
+    z-index: 1;
+    display: inline;
+}
+.block2{
+    background-color: #A8AF68;
+    top: 20px;
+    left: 370px;
+    z-index: 2;
+}
+
+
+.block-container ul{
+    list-style-type: none;
+    display: inline;
+}
+
+.block-container li{
+    display: list-item;
+    padding: 10px;
+    color: #A8AF68;
 }
