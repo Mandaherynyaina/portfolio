@@ -224,3 +224,8 @@ h3{
     text-align: center;
     flex: 1;
 }
+
+.rows:hover{
+    background-color: red;
+    color: black;
+}
